@@ -12,10 +12,14 @@ import React, { useState, KeyboardEvent } from 'react'
 import './App.css';
 
 const defaultMap = new Map([
-  ["w", "Neutrophil"],
-  ["a", "Lymphocyte"],
-  ["s", "Eosinophil"],
-  ["d", "Monocyte"]
+  ["7", "Neutrophil"],
+  ["8", "Lymphocyte"],
+  ["9", "Monocyte"],
+  ["4", "Eosinophil"],
+  ["5", "Basophil"],
+  ["6", "Band"],
+  ["1", "NRBC"],
+  ["2", "Atypical"],
 ])
 
 function App() : JSX.Element {
